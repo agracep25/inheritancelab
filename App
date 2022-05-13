@@ -1,0 +1,21 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+        System.out.println("Wizards and Warlocks");
+
+        Wizard Merlin = new Wizard("Merlin");
+        Merlin.displaycharacterName();
+        Warlock Saruman = new Warlock("Saruman");
+        Saruman.displaycharacterName();
+        Merlin.fireStorm(Saruman);
+        Saruman.lightningstrike(Merlin);
+        Merlin.displaydetails();
+        Saruman.displaydetails();
+        Merlin.AtomicBomb(Saruman);
+        Saruman.ultraExplosion(Merlin);
+        Merlin.displaydetails();
+        Saruman.displaydetails();
+        Merlin.Healing();
+        Merlin.AtomicBomb(Saruman);
+        Merlin.displaydetails();
+    }
+}
